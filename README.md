@@ -1,6 +1,8 @@
 # jude
 Jude is a desktop Java application useful for seeing the UIDefaults keys and values for a Java look and feel; this can be helpful with Swing programming.  The name of the software is an acronym for Java User-Interface Defaults Explorer.   Jude will also list the system properties.
 
+![Jude](http://argonium.github.io/jude1.png)
+
 On the main screen, clicking on the "L&F" button will display a popup menu listing the installed look and feels.  Choosing a new L&F will update the table data on that page.  Users can also add additional L&Fs to Jude by following these steps:
 
 1. In the directory containing jude.jar, create a subdirectory called .themes
@@ -9,6 +11,8 @@ On the main screen, clicking on the "L&F" button will display a popup menu listi
 1. Start Jude
 
 For example, to include the Napkin L&F in the list of installed L&Fs, the themes.txt file would contain the line "net.sourceforge.napkinlaf.NapkinLookAndFeel" (no quotes).  The .themes directory would include the file napkinlaf.jar from the Napkin Look and Feel web site.  Each line of themes.txt can either contain a class name or start with the "#" symbol, meaning it's a comment and should be ignored by the parser.
+
+![Jude](http://argonium.github.io/jude2.png)
 
 The application requires Java 5 or later to build and execute.
 
