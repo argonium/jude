@@ -1,4 +1,4 @@
-# jude
+# Jude
 Jude is a desktop Java application useful for seeing the UIDefaults keys and values for a Java look and feel; this can be helpful with Swing programming.  The name of the software is an acronym for Java User-Interface Defaults Explorer.   Jude will also list the system properties.
 
 ![Jude](http://argonium.github.io/jude1.png)
